@@ -1,5 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,700;1,400&display=swap');
 
+@media (max-width: 1170px) {
+	header,
+	.page,
+	footer {
+		max-width: 970px;
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 992px) {
+	header,
+	.page,
+	footer {
+		max-width: 750px;
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 767px) {
+	header,
+	.page,
+	footer {
+		max-width: none;
+		margin: 0 auto;
+	}
+}
+
 body {
 	font-family: 'Ubuntu', sans-serif;
 }
